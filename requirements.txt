@@ -1,0 +1,26 @@
+npm install
+
+# Install React and React DOM (if not already in your project)
+npm install react react-dom
+
+# Install axios for making HTTP requests
+npm install axios
+
+# Install Framer Motion for animations
+npm install framer-motion
+
+# Install CSS loader (if you're using webpack and haven't set it up)
+npm install --save-dev css-loader style-loader
+
+# Optional: Install ESLint for code linting (recommended)
+npm install --save-dev eslint eslint-plugin-react
+
+# Optional: Install Prettier for code formatting (recommended)
+npm install --save-dev prettier eslint-config-prettier eslint-plugin-prettier
+
+npm install --save-dev @babel/plugin-proposal-private-property-in-object
+
+# If you're using Create React App, you might not need to install these manually:
+# - webpack
+# - babel
+# as they are included in the Create React App setup.
